@@ -58,6 +58,7 @@ public class Demo {
 
         if (crazyList2 != null) {
             Arrays.sort(crazyList2);
+
             List<Integer> newCrazyList2 = Arrays.asList(crazyList2);
             List<Integer> outputList = newCrazyList2.stream()
                     .filter(number -> number % 2 == 0)

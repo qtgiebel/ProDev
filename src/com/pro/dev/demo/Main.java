@@ -7,8 +7,8 @@ public class Main {
 
         System.out.println(gerald.toString());
 
-        //gerald.print();
+        gerald.print();
 
-        //gerald.sortAndRemoveOdds();
+        gerald.sortAndRemoveOdds();
     }
 }
