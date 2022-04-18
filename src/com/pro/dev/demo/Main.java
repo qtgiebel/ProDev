@@ -5,10 +5,10 @@ public class Main {
     public static void main(String[] args) {
         Demo gerald = new Demo();
 
-//        System.out.println(gerald.toString());
+        System.out.println(gerald.toString());
 
-        gerald.print();
+        //gerald.print();
 
-//        gerald.sortAndRemoveOdds();
+        //gerald.sortAndRemoveOdds();
     }
 }

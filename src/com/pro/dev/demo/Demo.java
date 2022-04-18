@@ -11,6 +11,13 @@ public class Demo {
 
 
 
+    @Override
+    public String toString() {
+        return name;
+    }
+
+
+
     public void print() {
         for (int i = 0; i < list.length; i++) {
             System.out.println(list[i]);
@@ -20,12 +27,6 @@ public class Demo {
         }
     }
 
-
-
-    @Override
-    public String toString() {
-        return name;
-    }
 
 
 
